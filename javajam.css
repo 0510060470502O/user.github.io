@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fcebb6;
+    color: #221811;
+    font: Verdana, Arial, sans-serif;
+}
+
+header{
+    background-color: #ccb28f;
+    text-align: center ;
+    background-repeat: no-repeat;
+    min-height: 150px;
+   
+}
+
+h1{
+    padding-top: 30px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+nav{
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 200px;
+}
+
+footer{
+    background-color: #d2b48c;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: solid 2px;
+}
+
+main{
+    margin-right: auto;
+    margin-left: 200px;
+    padding-left: 0;
+    padding-bottom: 2em;
+    padding-right: 0;
+    padding-top: 0;
+    background-color: fcebb6;
+    margin-top: -165px;
+}
+
+h4{
+    background-color: #fef6c2;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: .25em;
+    text-transform: uppercase;
+    clear: both;
+    border-bottom: 1px solid #221811;
+}
+
+#wrapper{
+     background-color: black;
+     width: 80%;
+     margin-right: auto;
+     margin-left: auto;
+     min-width: 900px;
+     max-width: 1280px;
+     box-shadow: 5px 10px 10px;
+     padding-left: 0;
+     padding-right: 0;
+}
+
+div.details{
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+
+img{
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+#heroroad{
+    background-size: 100%;
+    height:250px;
+    background-image: url(heroroad.jpg);
+}
+
+#heromugs{
+    background-image: url(heromugs.jpg);
+    background-size: 100% ;
+    height: 250px;
+}
+
+#heroguitar{
+    background-image: url(heroguitar.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+
+#herojobs{
+    background-image: url(herojobs.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+nav ul {list-style-type: none;
+    padding-left: 0px;
+
+}
+nav a{
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+nav a:link{
+    color: #fef6c2;
+}
+
+nav a:visited{
+    color: #d2b48c;
+}
+
+nav a:hover{
+    color: #c93;
+}
+
+.floatleft{
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+
+main h2,main h3,main h4,main p,main div,main ul,main dl{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+header, nav, main, footer {
+    display: block; 
+}
+
+table{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0;
+    background-color: #FFFFCC;
+}
+
+td,th{
+    padding: 10px;
+}
+
+tr:nth-of-type(odd){
+    background-color: #d2b48e;
+}
+
+form{
+    padding: 2em;
+}
+
+label{
+    float: left;
+    display: block;
+    text-align: left;
+    width: 8em;
+    padding-right: 1em;
+    clear: left;
+}
+
+#mySubmit{
+    margin-left: 9.5em;
+}

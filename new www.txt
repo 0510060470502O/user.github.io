@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>1st website assignment</title>
+</head>
+<body>
+assignment
+
+<p>
+this is another method
+</p>
+
+</body>
+</html>
